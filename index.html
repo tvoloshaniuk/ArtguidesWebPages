@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Гайди по малюванню - Головна</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      background-image: url("https://phonoteka.org/uploads/posts/2021-04/thumbs/1619268835_10-phonoteka_org-p-fon-guashyu-13.jpg");
+      background-size: cover;
+      background-position: center;
+    }
+    .container {
+      max-width: 1000px;
+      margin: 0 auto;
+      padding: 10px;
+      box-sizing: border-box;
+      background-color: rgba(242, 242, 242, 0.8);
+    }
+    .header {
+      background-color: green;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    .sub-menu {
+      background-color: rgba(0, 0, 0, 0.8);
+      color: white;
+      padding: 10px;
+      text-align: center;
+    }
+    .sub-menu a {
+      color: white;
+    }
+    .content {
+      text-align: center;
+      padding: 20px;
+    }
+    .footer {
+      background-color: green;
+      color: white;
+      padding: 10px;
+      text-align: center;
+      opacity: 0.8;
+    }
+    .guide-title {
+      color: black;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Гайди по малюванню</h1>
+    </div>
+    <div class="sub-menu">
+      <a href="index.html">Головна</a> |
+      <a href="landscape.html">Пейзаж</a> |
+      <a href="head.html">Голова</a> |
+      <a href="hands.html">Руки</a> |
+      <a href="clothing.html">Одяг</a>
+    </div>
+    <div class="content">
+      <h2 class="guide-title">Рекомендований гайд по малюванню</h2>
+      <p>Ми вітаємо вас на сайті ArtguidesWebPages, тут представлені деякі гайди з малювання. Бажаємо гарного перегляду!</p>
+      <img src="https://ae01.alicdn.com/kf/Hfd24961c7ac14250ac7aced47a84a672Y.jpg" alt="Головна сторінка" style="max-width: 250px; margin-top: 20px;">
+      <p>Натисніть <a href="#" onclick="playCatSound(); return false;">Привіт</a> для вітання.</p>
+      <audio id="cat-sound" src="cat.mp3"></audio>
+    </div>
+    <div class="footer">
+      <p style="margin: 0;"> © 2023 ArtguidesWebPages - Цей веб-сайт надає посилання на зовнішні ресурси з інформаційних цілей та для зручності відвідувачів. Ми не несемо відповідальності за зміст або авторські права на ці ресурси. </p>
+
+      <script>
+      function playCatSound() {
+        var audio = document.getElementById("cat-sound");
+        audio.play();
+      }
+      </script>
+    </div>
+  </div>
+</body>
+</html>
